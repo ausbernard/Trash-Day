@@ -20,8 +20,7 @@ if day == 1 or day == 4:
     bin_type = "trash"
 elif day == 2:
     bin_type = "recycling"
-else:
-    bin_type = "testing"
+
 
 # account information
 client = Client(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN)
