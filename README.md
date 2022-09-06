@@ -39,3 +39,8 @@ ngrok http 5000
 set the generated ngrok forwarding url as the twilio's phone numbers recieving message webhook in UI
 
 `cron sms_webhook.py`
+
+## Future
+- [ ] Dockerize
+- [ ] Enhance reminder feature
+
