@@ -21,7 +21,6 @@ if day == 1 or day == 4:
 elif day == 2:
     bin_type = "recycling"
 
-
 # account information
 client = Client(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN)
 app = Flask(__name__)
