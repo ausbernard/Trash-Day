@@ -3,7 +3,7 @@
 i keep missing trash day - i wanted to fix that.
 
 ## Description
-flask app ran locally to notify the user via sms/mms that it is either trash or recycle day.
+flask app ran locally to notify the user via sms & mms to take our the trash and/or recycle bins. codebase leverages twilio's api.
 
 ## Usage
 `.env` 
@@ -28,8 +28,7 @@ flask run
 ```
 `configure ngrok & run`
 
-the [ngrok docs](https://dashboard.ngrok.com/get-started/setup) are great.
-also [this](https://www.twilio.com/blog/2015/09/6-awesome-reasons-to-use-ngrok-when-testing-webhooks.html)
+the [ngrok docs](https://dashboard.ngrok.com/get-started/setup) are great. also [this](https://www.twilio.com/blog/2015/09/6-awesome-reasons-to-use-ngrok-when-testing-webhooks.html)
 ```bash
 ngrok config add-authtoken <token>
 ngrok http 5000
